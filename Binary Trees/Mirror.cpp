@@ -47,18 +47,3 @@ void mirrorBinaryTree(BinaryTreeNode<int>* root) {
 
 
 
-/*
-void mirrorBinaryTree(BinaryTreeNode<int>* root) {
-   if(root==NULL)
-        return;
-     
-    BinaryTreeNode<int>* p;
-    mirrorBinaryTree(root->left);
-    mirrorBinaryTree(root->right);
-     
-    //swap
-    p=root->left;
-    root->left=root->right;
-    root->right=p;
-}
-*/
